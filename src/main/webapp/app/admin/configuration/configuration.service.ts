@@ -40,7 +40,7 @@ export class JhiConfigurationService {
       }
     }
     // by default, use the default ApplicationContext Id
-    return res['contexts']['jhipsterSampleApplication']['beans'];
+    return res['contexts']['msIgnite']['beans'];
   }
 
   getEnv(): Observable<any> {
